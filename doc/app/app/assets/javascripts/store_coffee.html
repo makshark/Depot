@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>store.coffee - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../";
+</script>
+
+<script src="../../../js/jquery.js"></script>
+<script src="../../../js/darkfish.js"></script>
+
+<link href="../../../css/fonts.css" rel="stylesheet">
+<link href="../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../app/assets/javascripts/admin_coffee.html">admin.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../../app/assets/javascripts/carts_coffee.html">carts.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/line_items_coffee.html">line_items.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/orders_coffee.html">orders.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/products_coffee.html">products.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/sessions_coffee.html">sessions.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/store_coffee.html">store.coffee</a>
+  
+    <li><a href="../../../app/assets/javascripts/users_coffee.html">users.coffee</a>
+  
+    <li><a href="../../../app/assets/stylesheets/admin_scss.html">admin.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/application_css_scss.html">application.css.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/carts_scss.html">carts.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/line_items_scss.html">line_items.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/orders_scss.html">orders.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/products_scss.html">products.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/scaffolds_scss.html">scaffolds.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/sessions_scss.html">sessions.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/store_scss.html">store.scss</a>
+  
+    <li><a href="../../../app/assets/stylesheets/users_scss.html">users.scss</a>
+  
+    <li><a href="../../../app/views/carts/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/carts/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/line_items/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/line_items/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/orders/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/orders/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/products/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/products/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/products/who_bought_atom_builder.html">who_bought.atom.builder</a>
+  
+    <li><a href="../../../app/views/users/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../app/views/users/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page app/assets/javascripts/store.coffee">
+
+<p># Place all the behaviors and hooks related to the matching controller
+here. # All this logic will automatically be available in application.js. #
+You can use CoffeeScript in this file: <a
+href="http://coffeescript.org">coffeescript.org</a>/ $(document).on “ready
+page:change”, -&gt;</p>
+
+<pre>$(&#39;.store .entry &gt; img&#39;).click -&gt;
+  $(this).parent().find(&#39;:submit&#39;).click()</pre>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
