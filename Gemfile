@@ -40,17 +40,23 @@ gem 'capistrano-rvm'
 
 
 group :development do
-  gem 'capistrano-rails',   '~> 1.1', require: false
+  gem 'capistrano-rails', '~> 1.1', require: false
   gem 'capistrano-bundler', '~> 1.1', require: false
 end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  #RSpec gem (framework for testing)
+  gem 'rspec-rails'
+  #Gems for creating testing data
+  gem 'factory_girl'
+  #Gem for generating custom data
+  gem 'ffaker'
+  #Gem for cleaning data from database
+  gem 'database_cleaner'
 end
 
